@@ -1,0 +1,27 @@
+body{
+
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+
+}
+.buttons{
+
+border: 12px solid black;
+
+padding: 2px;
+}
+.buttons button{
+
+    width: 50px;
+    height: 50px;
+}
+button:hover{
+background-color: red;
+transform:  rotate(360deg);
+
+font-size: 29px;
+
+
+}
